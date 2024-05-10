@@ -3,34 +3,34 @@ import React from 'react'
 function Navbar() {
   return (
     <>
-        <div class="gc_top_header_wrapper hidden-xs">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
-				<div class="gc_left_side_warpper">
-					<div class="gc_top_contect">
-					<p><i class="fa fa-phone"></i>+123456789</p>
-						<p class=""><i class="fa fa-envelope"></i><a href="#">Email@example.com</a></p>
+        <div className="gc_top_header_wrapper hidden-xs">
+	<div className="container">
+		<div className="row">
+			<div className="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+				<div className="gc_left_side_warpper">
+					<div className="gc_top_contect">
+					<p><i className="fa fa-phone"></i>+123456789</p>
+						<p className=""><i className="fa fa-envelope"></i><a href="#">Email@example.com</a></p>
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
-				<div class="et_right_side_main_warpper">
-					<div class="gc_right_side_warpper">
+			<div className="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+				<div className="et_right_side_main_warpper">
+					<div className="gc_right_side_warpper">
 						<ul>
 							<li>
-								<div class="gc_top_socialicon">
+								<div className="gc_top_socialicon">
 									<ul>
 										<li>Connect with Grace Church :</li>
-										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-										<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-										<li><a href="#"><i class="fa fa-instagram"></i></a></li>
-										<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+										<li><a href="#"><i className="fa fa-facebook"></i></a></li>
+										<li><a href="#"><i className="fa fa-twitter"></i></a></li>
+										<li><a href="#"><i className="fa fa-instagram"></i></a></li>
+										<li><a href="#"><i className="fa fa-linkedin"></i></a></li>
 									</ul>
 								</div>
 							</li>
 							<li>
-								<div class="gc_top_donet_btn">
+								<div className="gc_top_donet_btn">
 									<ul>
 										<li><a href="#">DONATE</a></li>
 									</ul>
@@ -43,20 +43,20 @@ function Navbar() {
 		</div>
 	</div>
 </div>
-<div class="gc_main_menu_wrapper">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 hidden-xs hidden-sm">
-				<div class="gc_header_wrapper">
-					<div class="gc_logo">
-						<a href="index.html"><img src="images/header/centralChurch.png" alt="Logo" title="Grace Church" class="img-responsive"/></a>
+<div className="gc_main_menu_wrapper">
+	<div className="container">
+		<div className="row">
+			<div className="col-lg-3 col-md-3 col-sm-12 col-xs-12 hidden-xs hidden-sm">
+				<div className="gc_header_wrapper">
+					<div className="gc_logo">
+						<a href="index.html"><img src="images/header/centralChurch.png" alt="Logo" title="Grace Church" className="img-responsive"/></a>
 					</div>
 				</div>	
 			</div>
-<div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">			
-	<div class="header-area hidden-menu-bar stick" id="sticker">
+<div className="col-lg-9 col-md-9 col-sm-12 col-xs-12">			
+	<div className="header-area hidden-menu-bar stick" id="sticker">
                     	{/* <!-- mainmenu start --> */}
-						<div class="gc_right_menu hidden-xs hidden-sm">
+						<div className="gc_right_menu hidden-xs hidden-sm">
 							<ul>
 								<li id="search_button">
                                 <svg
@@ -72,81 +72,81 @@ function Navbar() {
     ><g><path id="search" d="M447.05,428l-109.6-109.6c29.4-33.8,47.2-77.9,47.2-126.1C384.65,86.2,298.35,0,192.35,0C86.25,0,0.05,86.3,0.05,192.3   s86.3,192.3,192.3,192.3c48.2,0,92.3-17.8,126.1-47.2L428.05,447c2.6,2.6,6.1,4,9.5,4s6.9-1.3,9.5-4   C452.25,441.8,452.25,433.2,447.05,428z M26.95,192.3c0-91.2,74.2-165.3,165.3-165.3c91.2,0,165.3,74.2,165.3,165.3   s-74.1,165.4-165.3,165.4C101.15,357.7,26.95,283.5,26.95,192.3z" fill="#00468c"/></g></svg>
 								</li>
 								<li>
-									<div id="search_open" class="gc_search_box">
+									<div id="search_open" className="gc_search_box">
 										<input type="text" placeholder="Search here"/>
-										<button><i class="fa fa-search" aria-hidden="true"></i></button>
+										<button><i className="fa fa-search" aria-hidden="true"></i></button>
 									</div>
 								</li>
 							</ul>
 						</div>
-                        <div class="mainmenu">
+                        <div className="mainmenu">
                             <ul>
-								 <li class="has-mega gc_main_navigation"><a href="#" class="gc_main_navigation">  Home</a>
+								 <li className="has-mega gc_main_navigation"><a href="#" className="gc_main_navigation">  Home</a>
                                 	{/* <!-- mega menu start --> */}
 									<ul>
-                                		<li class="parent"><a href="index.html">Home1</a></li>
-                                		<li class="parent"><a href="index2.html">Home2</a></li>                 		
-                                		<li class="parent"><a href="index3.html">Home3</a></li>                 		
+                                		<li className="parent"><a href="index.html">Home1</a></li>
+                                		<li className="parent"><a href="index2.html">Home2</a></li>                 		
+                                		<li className="parent"><a href="index3.html">Home3</a></li>                 		
                                 	</ul>
                                 </li>
-                                <li class="has-mega gc_main_navigation"><a href="#" class="gc_main_navigation">  Pages</a>
+                                <li className="has-mega gc_main_navigation"><a href="#" className="gc_main_navigation">  Pages</a>
                                 	{/* <!-- mega menu start --> */}
 									<ul>
-                                		<li class="parent"><a href="about.html">About</a></li>
-                                		<li class="parent"><a href="causes.html">Causes</a></li>
-                                		<li class="parent"><a href="causes_single.html">Causes Single</a></li>
+                                		<li className="parent"><a href="about.html">About</a></li>
+                                		<li className="parent"><a href="causes.html">Causes</a></li>
+                                		<li className="parent"><a href="causes_single.html">Causes Single</a></li>
                                 		
                                 	</ul>
                                 </li>
-                                  <li class="has-mega gc_main_navigation"><a href="#" class="gc_main_navigation">  event</a>
+                                  <li className="has-mega gc_main_navigation"><a href="#" className="gc_main_navigation">  event</a>
                                 	{/* <!-- mega menu start --> */}
 									<ul>
-                                		<li class="parent"><a href="upcoming.html">event</a></li>
-                                		<li class="parent"><a href="event_single.html">event Single</a></li>
+                                		<li className="parent"><a href="upcoming.html">event</a></li>
+                                		<li className="parent"><a href="event_single.html">event Single</a></li>
                                 		
                                 	</ul>
                                 </li>
-								 <li class="has-mega gc_main_navigation"><a href="#" class="gc_main_navigation">  sermons</a>
+								 <li className="has-mega gc_main_navigation"><a href="#" className="gc_main_navigation">  sermons</a>
                                 	{/* <!-- mega menu start --> */}
 									<ul>
-                                		<li class="parent"><a href="sermons.html">sermons</a></li>
-                                		<li class="parent"><a href="sermons_single.html">sermons Single</a></li>
+                                		<li className="parent"><a href="sermons.html">sermons</a></li>
+                                		<li className="parent"><a href="sermons_single.html">sermons Single</a></li>
                                 		
                                 	</ul>
                                 </li>
-                                <li class="has-mega gc_main_navigation"><a href="#" class="gc_main_navigation">  Gallery</a>
+                                <li className="has-mega gc_main_navigation"><a href="#" className="gc_main_navigation">  Gallery</a>
                                 	{/* <!-- mega menu start --> */}
 									<ul>
-                                		<li class="parent"><a href="gallery_II.html">Gallery-II</a></li>
-                                		<li class="parent"><a href="gallery_III.html">Gallery-III</a></li>
-                                		<li class="parent"><a href="gallery_IV.html">Gallery-IV</a></li>
+                                		<li className="parent"><a href="gallery_II.html">Gallery-II</a></li>
+                                		<li className="parent"><a href="gallery_III.html">Gallery-III</a></li>
+                                		<li className="parent"><a href="gallery_IV.html">Gallery-IV</a></li>
                                 		
                                 	</ul>
                                 </li>
-                               <li class="has-mega gc_main_navigation"><a href="#" class="gc_main_navigation">  Blog</a>
+                               <li className="has-mega gc_main_navigation"><a href="#" className="gc_main_navigation">  Blog</a>
                                 	{/* <!-- mega menu start --> */}
 									<ul>
-                                		<li class="parent"><a href="blog_categories.html">Blog-Category</a></li>
-                                		<li class="parent"><a href="blog_single.html">Blog-Single</a></li>
+                                		<li className="parent"><a href="blog_categories.html">Blog-Category</a></li>
+                                		<li className="parent"><a href="blog_single.html">Blog-Single</a></li>
                                 		
                                 	</ul>
                                 </li>
-								<li class="gc_main_navigation parent"><a href="contact.html" class="gc_main_navigation">Contact Us</a></li>
+								<li className="gc_main_navigation parent"><a href="contact.html" className="gc_main_navigation">Contact Us</a></li>
                             </ul>
                         </div>
                     	{/* <!-- mainmenu end --> */}
 		                {/* <!-- mobile menu area start --> */}
-		               <header class="mobail_menu">
-							<div class="container-fluid">
-								<div class="row">	
-									<div class="col-xs-6 col-sm-6">
-										<div class="gc_logo">
+		               <header className="mobail_menu">
+							<div className="container-fluid">
+								<div className="row">	
+									<div className="col-xs-6 col-sm-6">
+										<div className="gc_logo">
 											<a href="index.html"><img src="images/header/logo.png" alt="Logo" title="Grace Church"/></a>
 										</div>
 									</div>
-									<div class="col-xs-6 col-sm-6">
-												<div class="cd-dropdown-wrapper">
-													<a class="house_toggle" href="#0">
+									<div className="col-xs-6 col-sm-6">
+												<div className="cd-dropdown-wrapper">
+													<a className="house_toggle" href="#0">
 													<svg
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -199,20 +199,20 @@ function Navbar() {
       </g>
     </svg>
 													</a>
-												<nav class="cd-dropdown">
+												<nav className="cd-dropdown">
 											<h2><a href="#">Grace <span>Church</span></a></h2>
-											<a href="#0" class="cd-close">Close</a>
-											<ul class="cd-dropdown-content">
+											<a href="#0" className="cd-close">Close</a>
+											<ul className="cd-dropdown-content">
 												<li>
-													<form class="cd-search">
+													<form className="cd-search">
 														<input type="search" placeholder="Search..."/>
 													</form>
 												</li>
-												<li class="has-children">
+												<li className="has-children">
 													<a href="#">Home</a>
 
-													<ul class="cd-secondary-dropdown is-hidden">
-														<li class="go-back"><a href="#0">Menu</a></li>
+													<ul className="cd-secondary-dropdown is-hidden">
+														<li className="go-back"><a href="#0">Menu</a></li>
 																<li>
 																	<a href="index.html">Home1</a>
 																</li> 
@@ -233,11 +233,11 @@ function Navbar() {
                                                 {/* <!-- .has-children --> */}
 												
 												
-												<li class="has-children">
+												<li className="has-children">
 													<a href="#">Pages</a>
 
-													<ul class="cd-secondary-dropdown is-hidden">
-														<li class="go-back"><a href="#0">Menu</a></li>
+													<ul className="cd-secondary-dropdown is-hidden">
+														<li className="go-back"><a href="#0">Menu</a></li>
 																<li>
 																	<a href="about.html">About</a>
 																</li>
@@ -257,11 +257,11 @@ function Navbar() {
                                                     {/* <!-- .cd-secondary-dropdown --> */}
 												</li> 
                                                 {/* <!-- .has-children --> */}
-												  <li class="has-children">
+												  <li className="has-children">
 													<a href="#">event </a>
 
-													<ul class="cd-secondary-dropdown is-hidden">
-														<li class="go-back"><a href="#0">Menu</a></li>
+													<ul className="cd-secondary-dropdown is-hidden">
+														<li className="go-back"><a href="#0">Menu</a></li>
 																<li>
 																	<a href="upcoming.html">event</a>
 																</li>
@@ -277,11 +277,11 @@ function Navbar() {
 												</li> 
                                                 {/* <!-- .has-children --> */}
 												
-												<li class="has-children">
+												<li className="has-children">
 													<a href="#">sermons </a>
 
-													<ul class="cd-secondary-dropdown is-hidden">
-														<li class="go-back"><a href="#0">Menu</a></li>
+													<ul className="cd-secondary-dropdown is-hidden">
+														<li className="go-back"><a href="#0">Menu</a></li>
 																<li>
 																	<a href="sermons.html">sermons</a>
 																</li> 
@@ -296,11 +296,11 @@ function Navbar() {
                                                     {/* <!-- .cd-secondary-dropdown --> */}
 													</li> 
                                                     {/* <!-- .has-children --> */}
-												<li class="has-children">
+												<li className="has-children">
 													<a href="#">Gallery</a>
 
-													<ul class="cd-secondary-dropdown is-hidden">
-														<li class="go-back"><a href="#0">Menu</a></li>
+													<ul className="cd-secondary-dropdown is-hidden">
+														<li className="go-back"><a href="#0">Menu</a></li>
 																<li>
 																	<a href="gallery_II.html">Gallery-III</a>
 																</li> 
@@ -320,11 +320,11 @@ function Navbar() {
                                                     {/* <!-- .cd-secondary-dropdown --> */}
 												</li> 
                                                 {/* <!-- .has-children --> */}
-												<li class="has-children">
+												<li className="has-children">
 													<a href="#">Blog</a>
 
-													<ul class="cd-secondary-dropdown is-hidden">
-														<li class="go-back"><a href="#0">Menu</a></li>
+													<ul className="cd-secondary-dropdown is-hidden">
+														<li className="go-back"><a href="#0">Menu</a></li>
 																<li>
 																	<a href="blog_categories.html">Blog-Category</a>
 																</li> 

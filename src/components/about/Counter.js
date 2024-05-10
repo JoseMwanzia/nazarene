@@ -4,41 +4,41 @@ function Counter() {
   return (
     <>
     {/* <!-- GC Counter Wrapper Start --> */}
-    <div class="gc_counter_main_wrapper">
-	<div class="gc_counter_cont_wrapper">
-		<div class="gc_counter_icon">
-			<i class="fa fa-heart"></i>
+    <div className="gc_counter_main_wrapper">
+	<div className="gc_counter_cont_wrapper">
+		<div className="gc_counter_icon">
+			<i className="fa fa-heart"></i>
 		</div>
-		<div class="count-description">
-			<span class="timer">2540</span><i class="fa fa-plus"></i>
-			<h5 class="con1">Causes</h5>
-		</div>
-	</div>
-	<div class="gc_counter_cont_wrapper2">
-		<div class="gc_counter_icon">
-			<i class="fa fa-globe"></i>
-		</div>
-		<div class="count-description">
-			<span class="timer">7325</span><i class="fa fa-plus"></i>
-			<h5 class="con2">Places</h5>
+		<div className="count-description">
+			<span className="timer">2540</span><i className="fa fa-plus"></i>
+			<h5 className="con1">Causes</h5>
 		</div>
 	</div>
-	<div class="gc_counter_cont_wrapper3">
-		<div class="gc_counter_icon">
-			<i class="fa fa-user"></i>
+	<div className="gc_counter_cont_wrapper2">
+		<div className="gc_counter_icon">
+			<i className="fa fa-globe"></i>
 		</div>
-		<div class="count-description">
-			<span class="timer">1924</span><i class="fa fa-plus"></i>
-			<h5 class="con3">Volunteers</h5>
+		<div className="count-description">
+			<span className="timer">7325</span><i className="fa fa-plus"></i>
+			<h5 className="con2">Places</h5>
 		</div>
 	</div>
-	<div class="gc_counter_cont_wrapper4">
-		<div class="gc_counter_icon">
-			<i class="fa  fa-users"></i>
+	<div className="gc_counter_cont_wrapper3">
+		<div className="gc_counter_icon">
+			<i className="fa fa-user"></i>
 		</div>
-		<div class="count-description">
-			<span class="timer">4275</span><i class="fa fa-plus"></i>
-			<h5 class="con4">Saved Life</h5>
+		<div className="count-description">
+			<span className="timer">1924</span><i className="fa fa-plus"></i>
+			<h5 className="con3">Volunteers</h5>
+		</div>
+	</div>
+	<div className="gc_counter_cont_wrapper4">
+		<div className="gc_counter_icon">
+			<i className="fa  fa-users"></i>
+		</div>
+		<div className="count-description">
+			<span className="timer">4275</span><i className="fa fa-plus"></i>
+			<h5 className="con4">Saved Life</h5>
 		</div>
 	</div>
 </div>
