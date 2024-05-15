@@ -4,7 +4,7 @@ const Events = () => {
   return (
     <>
       {/* <!-- GC program Wrapper Start --> */}
-<div className="gc_program_event_main_wrapper">
+<div className="gc_program_event_main_wrapper" id='events_section'>
 	<div className="container">
 		<div className="row gc_program_margin">
 			<div className="col-lg-8 col-md-8 col-sm-12 col-xs-12">
@@ -17,7 +17,7 @@ const Events = () => {
 					<div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 						<div className="gc_upcom_slider_wrapper">
 							<div className="gc_com_slider_img_wrapper">
-								<img src="images/content/event_img1.jpg" alt="slider_img" className="zoom image img-responsive"/>
+								<img src="images/content/weddingHands.png" alt="slider_img" className="zoom image img-responsive"/>
 							</div>
 							<div className="gc_com_slider_cont_wrapper">
 								<div className="gc_com_slider_cont">
@@ -32,11 +32,11 @@ const Events = () => {
 										</div>
 									</div>
 									<div className="gc_event_bottom_cont gc_com_bottom_cont_wrapper">
-										<h2>Sharing Our Faith & Love..</h2>
+										<h2>Experience the Joy of Forever...</h2>
 										<div className="gc_user_icon_wrapper">
 											<i className="fa fa-user"></i>
 										</div>
-										<h3>- by Pastor : <span>Clinith Luis</span></h3>
+										<h3>- by Pastor : <span>Isaac Chege</span></h3>
 										<div className="gc_location_icon_wrapper">
 											<i className="fa fa-map-marker"></i>
 										</div>
@@ -49,7 +49,7 @@ const Events = () => {
 									</div>
 									<div className="gc_event_date_wrapper gc_upcom_date_wrapper gc_event_index_wrapper">
 										<h1>14</h1>
-										<p>May <br/>2017</p>
+										<p>May <br/>2024</p>
 									</div>
 								</div>
 							</div>
@@ -58,7 +58,7 @@ const Events = () => {
 					<div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 gc_event_margin">
 						<div className="gc_upcom_slider_wrapper">
 							<div className="gc_com_slider_img_wrapper">
-								<img src="images/content/event_img2.jpg" alt="slider_img" className="zoom image img-responsive"/>
+								<img src="images/content/baptism.png" alt="slider_img" className="zoom image img-responsive"/>
 							</div>
 							<div className="gc_com_slider_cont_wrapper">
 								<div className="gc_com_slider_cont">
@@ -73,11 +73,11 @@ const Events = () => {
 										</div>
 									</div>
 									<div className="gc_event_bottom_cont gc_com_bottom_cont_wrapper">
-										<h2>Sharing Our Faith & Love..</h2>
+										<h2>Special Baptism and Confirmation..</h2>
 										<div className="gc_user_icon_wrapper">
 											<i className="fa fa-user"></i>
 										</div>
-										<h3>- by Pastor : <span>Clinith Luis</span></h3>
+										<h3>- by Pastor : <span>John Doe</span></h3>
 										<div className="gc_location_icon_wrapper">
 											<i className="fa fa-map-marker"></i>
 										</div>
@@ -89,8 +89,8 @@ const Events = () => {
 										</ul>
 									</div>
 									<div className="gc_event_date_wrapper gc_upcom_date_wrapper gc_event_index_wrapper">
-										<h1>14</h1>
-										<p>May <br/>2017</p>
+										<h1>17</h1>
+										<p>June <br/>2024</p>
 									</div>
 								</div>
 							</div>

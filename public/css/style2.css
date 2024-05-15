@@ -1014,7 +1014,7 @@ audio {
 	width:100%;
 }
 .gc_main_slide1{
-	background:url('../images/header/slider_img2.jpg') 50% 0 repeat-y;
+	background:url('../images/header/worship.png') 50% 0 repeat-y;
 	width:100%;
 	min-height:900px;
 	background-size:cover;
@@ -1022,7 +1022,7 @@ audio {
 	position:relative;
 }
 .gc_main_slide2{
-	background:url('../images/header/slider_img2.jpg') 50% 0 repeat-y;
+	background:url('../images/header/cathedral.png') 50% 0 repeat-y;
 	width:100%;
 	min-height:900px;
 	background-size:cover;
@@ -1030,7 +1030,7 @@ audio {
 	position:relative;
 }
 .gc_main_slide3{
-	background:url('../images/header/slider_img2.jpg') 50% 0 repeat-y;
+	background:url('../images/header/nazarene.png') 50% 0 repeat-y;
 	width:100%;
 	min-height:900px;
 	background-size:cover;
@@ -1092,6 +1092,7 @@ audio {
 .gc_slider_img_section  .owl-theme .owl-nav .owl-prev{
     font-size: 50px;
     margin: 0;
+	border: none;
     padding: 0;
     left: 0;
 	top:30px;
@@ -1113,6 +1114,7 @@ audio {
 .gc_slider_img_section   .owl-theme .owl-nav .owl-next{
     font-size: 50px;
     margin: 0;
+	border: none;
     padding: 0;
     right: 0;
 	top:30px;

@@ -18,7 +18,7 @@ function Partners() {
 			</div>
 			<div className="col-lg-12 col-lg-12 col-lg-12 col-lg-12">
 				<div className="gc_partner_slider_wrapper">
-                    <OwlCarousel items='1'  loop='true'  autoplayTimeout={2000} className='owl-theme'>
+                    <OwlCarousel items='1' loop='true' autoplay autoplayTimeout={2000} className='owl-theme'>
 					<div className="item">
 						<div className="gc_prt1_img_wrapper">
 							<img src="images/content/logo01.png" alt="partner_img"/>

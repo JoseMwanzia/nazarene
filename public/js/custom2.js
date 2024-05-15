@@ -481,7 +481,7 @@ $(window).load(function() {
 		
 		
 // CountDown Js
-	var deadline = 'december 31 2018 11:59:00 GMT-0400';
+	var deadline = 'december 31 2024 11:59:00 GMT-0400';
 		function time_remaining(endtime){
 			var t = Date.parse(endtime) - Date.parse(new Date());
 			var seconds = Math.floor( (t/1000) % 60 );
@@ -496,18 +496,18 @@ $(window).load(function() {
       if (!clock) {
         console.error('Clock element with ID ' + id + ' not found');
         return;
-    }
+      }
 			
 			// get spans where our clock numbers are held
-			var days_span = clock.querySelector('.days');
-			var hours_span = clock.querySelector('.hours');
-			var minutes_span = clock.querySelector('.minutes');
-			var seconds_span = clock.querySelector('.seconds');
+			const days_span = clock.querySelector('.days');
+			const hours_span = clock.querySelector('.hours');
+			const minutes_span = clock.querySelector('.minutes');
+			const seconds_span = clock.querySelector('.seconds');
 
       if (!days_span || !hours_span || !minutes_span || !seconds_span) {
         console.error('One or more clock elements not found');
         return;
-    }
+      }
 
 			function update_clock(){
 				var t = time_remaining(endtime);

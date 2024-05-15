@@ -1,5 +1,8 @@
 import React from 'react'
-import OwlCarousel from 'react-owl-carousel'
+import OwlCarousel from 'react-owl-carousel';
+import 'owl.carousel/dist/assets/owl.carousel.css';
+import 'owl.carousel/dist/assets/owl.theme.default.css';
+
 function Testimonials() {
   return (
     <>
@@ -10,7 +13,7 @@ function Testimonials() {
 			<div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 				<div className="gc_client_slider_wrapper">
 					{/* <div className="owl-carousel owl-theme"> */}
-                        <OwlCarousel items='1'  loop='true'  autoplayTimeout={2000} className='owl-theme'>
+                    <OwlCarousel items='1' nav autoplaySpeed={1500}  loop='true' autoplay autoplayTimeout={4000} className='owl-theme' >
 						<div className="item">
 							<div className="gc_client_slide_main_wrapper">
 								<div className="gc_client_cont_wrapper">
@@ -23,7 +26,7 @@ function Testimonials() {
 										<img src="images/content/client_img.jpg" className="img-responsive" alt="client_img"/>
 									</div>
 									<div className="gc_client_social_wrapper">
-										<p>- by <span>Merry Jain</span> <span>(Church Memeber)</span></p>
+										<p>- by <span>John Doe</span> <span>(Church Memeber)</span></p>
 										<ul>
 											<li><a href="#"><i className="fa fa-facebook"></i></a></li>
 											<li><a href="#"><i className="fa fa-twitter"></i></a></li>

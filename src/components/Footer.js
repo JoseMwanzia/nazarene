@@ -11,7 +11,7 @@ function Footer() {
 			<div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 				<div className="gc_footer_logo_wrapper">
 					<div className="gc_footer_logo">
-						<img src="images/header/footer_logo.png" className="img-responsive" alt="footer logo"/>
+						<img src="images/header/centralChurch.png" className="img-responsive" alt="footer logo"/>
 					</div>	
 				</div>
 			</div>
@@ -22,17 +22,18 @@ function Footer() {
 							<li><a href="#"><i className="fa fa-facebook-square"></i> Facebook</a></li>
 							<li><a href="#"><i className="fa fa-twitter-square"></i> Twitter</a></li>
 							<li><a href="#"><i className="fa fa-google-plus-square"> Google Plus</i></a></li>
-							<li><a href="#"><i className="fa fa-pinterest-square"></i> Pintrest</a></li>
+							<li><a href="#"><i className="fa fa-youtube"></i> You Tube</a></li>
 							<li><a href="#"><i className="fa fa-instagram"> Instagram</i></a></li>
 						</ul>
 					</div>
 				</div>
 			</div>
-			<div className="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+			<div className="col-lg-4 col-md-4 col-sm-6 col-xs-12">
 				<div className="gc_footer_news_wrapper">
 					<div className="gc_footer_news">
 						<h3>Newsletter</h3>
-						<p>Nam nec tellus a odio tincidunt a auctor a nare odio sed. This is Pshop's version  Offer.</p>
+						<p>Love is a fruit in season at all times, and within reach of every hand. It is the greatest gift anyone can give.
+</p>
 					</div>
 					<div className="gc_footer_news_email">
 						<h3>Get Our Newletter</h3>
@@ -40,32 +41,32 @@ function Footer() {
 					</div>
 				</div>
 			</div>
-			<div className="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+			<div className="col-lg-4 col-md-4 col-sm-6 col-xs-12">
 				<div className="gc_footer_letestnews_wrapper">
 					<div className="gc_footer_news">
 						<h3>Latest News</h3>
 					</div>
 					<div className="gc_footer_ln_main_wrapper">
 						<div className="gc_footer_ln_img_wrapper">
-							<img src="images/content/footer_news1.jpg" className="img-responsive" alt="ln_img"/>
+							<img src="images/content/footer-news1.png" className="img-responsive" alt="ln_img"/>
 						</div>
 						<div className="gc_footer_ln_cont_wrapper">
 							<h4>Lord of our life & our salvation</h4>
-							<p>12 May 2017</p>
+							<p>25 May 2024</p>
 						</div>
 					</div>
 					<div className="gc_footer_ln_main_wrapper2">
 						<div className="gc_footer_ln_img_wrapper">
-							<img src="images/content/footer_news2.jpg" className="img-responsive" alt="ln_img"/>
+							<img src="images/content/footer-news2.png" className="img-responsive" alt="ln_img"/>
 						</div>
 						<div className="gc_footer_ln_cont_wrapper">
-							<h4>Lord of our life & our salvation</h4>
-							<p>12 May 2017</p>
+							<h4>Volunteering in the church</h4>
+							<p>22 June 2024</p>
 						</div>
 					</div>					
 				</div>
 			</div>
-			<div className="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+			<div className="col-lg-4 col-md-4 col-sm-6 col-xs-12">
 				<div className="gc_footer_ul_wrapper">
 					<div className="gc_footer_news">
 						<h3>Useful Links</h3>
@@ -84,7 +85,7 @@ function Footer() {
 				</div>
 			</div>
 			<div className="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-				<div className="gc_footer_insta_wrapper">
+				{/* <div className="gc_footer_insta_wrapper">
 					<div className="gc_footer_news">
 						<h3>Instragram</h3>
 					</div>
@@ -124,7 +125,7 @@ function Footer() {
 							</div>
 						</div>
 					</div>
-				</div>
+				</div> */}
 			</div>
 		</div>
 	</div>
@@ -133,7 +134,7 @@ function Footer() {
 	<div className="container-fluid">
 		<div className="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 			<div className="gc_bottom_footer_copy_wrapper">
-				<p>Copyright © 2017 <a href="#">Grace Church</a>. All rights reserved. Design by <a href="#">Webstrot</a></p>
+				<p>Copyright © 2024 <a href="#">Nazarene Church</a>. All rights reserved. Design by <a href="#">Adje</a></p>
 			</div>	
 		</div>
 		<div className="col-lg-6 col-md-6 col-sm-12 col-xs-12">

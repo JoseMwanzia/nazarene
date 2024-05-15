@@ -1115,6 +1115,12 @@ figure {
 img {
   vertical-align: middle;
 }
+.gc_logo img{
+  Width: 55% !important;
+  Aspect-ratio: 3/2;
+  Object-fit: contain;
+}
+
 .img-responsive,
 .thumbnail > img,
 .thumbnail a > img,

@@ -1,16 +1,17 @@
 import React from 'react'
 
 function Navbar() {
+	
   return (
     <>
-        <div className="gc_top_header_wrapper hidden-xs">
+        {/* <div className="gc_top_header_wrapper hidden-xs">
 	<div className="container">
 		<div className="row">
 			<div className="col-lg-5 col-md-5 col-sm-12 col-xs-12">
 				<div className="gc_left_side_warpper">
-					<div className="gc_top_contect">
-					<p><i className="fa fa-phone"></i>+123456789</p>
-						<p className=""><i className="fa fa-envelope"></i><a href="#">Email@example.com</a></p>
+					<div className="gc_top_contect gap-3">
+					<p className=''><i className="fa fa-phone"></i>  +123456789</p>
+						<p><i className="fa fa-envelope"></i><a href="#"> Email@example.com</a></p>
 					</div>
 				</div>
 			</div>
@@ -42,14 +43,14 @@ function Navbar() {
 			</div>
 		</div>
 	</div>
-</div>
+</div> */}
 <div className="gc_main_menu_wrapper">
 	<div className="container">
 		<div className="row">
 			<div className="col-lg-3 col-md-3 col-sm-12 col-xs-12 hidden-xs hidden-sm">
 				<div className="gc_header_wrapper">
 					<div className="gc_logo">
-						<a href="index.html"><img src="images/header/centralChurch.png" alt="Logo" title="Grace Church" className="img-responsive"/></a>
+						<a href="/"><img src="images/header/centralChurch.png" alt="Logo" title="Grace Church" className="img-responsive"/></a>
 					</div>
 				</div>	
 			</div>
@@ -98,7 +99,7 @@ function Navbar() {
                                 		
                                 	</ul>
                                 </li>
-                                  <li className="has-mega gc_main_navigation"><a href="#" className="gc_main_navigation">  event</a>
+                                  <li className="has-mega gc_main_navigation"><a href="#events_section" className="gc_main_navigation">events</a>
                                 	{/* <!-- mega menu start --> */}
 									<ul>
                                 		<li className="parent"><a href="upcoming.html">event</a></li>
